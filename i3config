@@ -172,6 +172,9 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+for_window [class="^.*"] border pixel 0
+new_window 1pixel
+
 # thin borders
 hide_edge_borders both
 
